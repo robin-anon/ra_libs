@@ -15,9 +15,9 @@ def f_range(start, stop, step):
 
 
 def filter(data, min_frac):
-    data = data.iloc[math.floor(len(data.index) * min_frac):]
-    data = data.dropna(axis = 0, how = 'all')
-    data = data.dropna(axis = 1)
+    data = data.iloc[math.floor(len(data.index) * min_frac) :]
+    data = data.dropna(axis=0, how="all")
+    data = data.dropna(axis=1)
     return data
 
 
@@ -31,7 +31,7 @@ def anomaly_filter(return_df, max_dev):
     standard_df = (return_df - return_df.mean()) / return_df.std()
     describe_df = standard_df.describe().transpose()
     standard_describe_df = (describe_df - describe_df.mean()) / describe_df.std()
-    standard_describe_df = standard_describe_df.dropna(axis = 1)
+    standard_describe_df = standard_describe_df.dropna(axis=1)
     bool_series = standard_describe_df.apply(lambda x: np.abs(x) < max_dev).all(axis=1)
     column_list = [index for index in bool_series.index if bool_series[index]]
     return return_df[column_list]
