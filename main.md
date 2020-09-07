@@ -41,6 +41,432 @@ Pass a list of tickers to the Database.add_tickers() function to add them to the
 ```python
 database.add_tickers(etf_list)
 ```
+
+    - EFA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XBI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - QEH: No data found, symbol may be delisted
+    - FNDE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IPK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FTGS: No data found, symbol may be delisted
+    - AGG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - AAXJ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VUG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EPRO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IXJ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MUNI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ECON: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - UPRO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - OEF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EPHE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BIL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VIG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XLB: No data found for this date range, symbol may be delisted
+    - XLF: No data found for this date range, symbol may be delisted
+    - PKW: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DBA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VDC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IYE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - LDUR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MINT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BKLN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - USO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HECO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BIV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PJP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - TZA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IJJ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - USDU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MINC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BRAF: No data found for this date range, symbol may be delisted
+    - GAZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VDE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IPD: No data found for this date range, symbol may be delisted
+    - SCHH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ARKG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XLI: No data found for this date range, symbol may be delisted
+    - EWL: No data found for this date range, symbol may be delisted
+    - SH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWD: No data found for this date range, symbol may be delisted
+    - IVW: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BND: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RJN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IDV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ACWX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FLOT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IYH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IGE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VEGA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWJ: No data found for this date range, symbol may be delisted
+    - LQD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FXH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MIDU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - NERD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CRDT: No data found for this date range, symbol may be delisted
+    - GTAA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ERY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SBB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EFV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VGLT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ELD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RPV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MBB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VPL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWI: No data found for this date range, symbol may be delisted
+    - MXI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VIS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SYV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IEV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - NEAR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IXC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWS: No data found for this date range, symbol may be delisted
+    - SHY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ILF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RJZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCPB: No data found for this date range, symbol may be delisted
+    - VIOG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HYLS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - QID: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VWO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DGS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - QCLN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IXG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DIA: No data found for this date range, symbol may be delisted
+    - VNQ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VOO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FBT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CEW: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IJS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BOND: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DJP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GDXJ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ONEF: No data found for this date range, symbol may be delisted
+    - MUB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GXF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VYM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PSQ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VAW: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MATH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SJNK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XOP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GIVE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XLV: No data found for this date range, symbol may be delisted
+    - IYW: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RWX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FTSD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IESM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FNDX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RJA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IYM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ICF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FTSL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MGC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SHV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SYG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GYEN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RWR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FNDB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - QLD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VONG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IXP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HYG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FMB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IVE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XLP: No data found for this date range, symbol may be delisted
+    - EFG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VGSH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FNDC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BZF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RSX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XLY: No data found for this date range, symbol may be delisted
+    - ESPO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ALD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DLN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GVI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - UWM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IRY: No data found for this date range, symbol may be delisted
+    - VONV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PPLT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IPU: No data found for this date range, symbol may be delisted
+    - EMCB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BKF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MZZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PHDG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - JXI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - UNG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - YPRO: No data found, symbol may be delisted
+    - EXI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SPUU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VTIP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SPXU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RXI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IYR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IYZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FAS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - TLT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - JJM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IPS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HOLD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CSJ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CWB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FEZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IVOV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    -  SHE: No data found, symbol may be delisted
+    - XLK: No data found for this date range, symbol may be delisted
+    - XHB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VTWO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - TFI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PRF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GXG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RPX: No data found, symbol may be delisted
+    - EPP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - JJA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SRLN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWC: No data found for this date range, symbol may be delisted
+    - SYE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HYS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CHNA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XLE: No data found for this date range, symbol may be delisted
+    - VTHR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ICB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VIOO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ERX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DBB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GUNR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EMLP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - LALT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - JNK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MDY: No data found for this date range, symbol may be delisted
+    - VGT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IVOO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RJI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EFZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IAU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PSR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BGU: No data found for this date range, symbol may be delisted
+    - SMMU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GMMB: No data found for this date range, symbol may be delisted
+    - BSV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - NORW: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IVV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FWDB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VOOV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SGOL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - INKM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IFEU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DON: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ARKW: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GSG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - TDTT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IVOG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CIU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GGBP: No data found for this date range, symbol may be delisted
+    - VSS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ITOT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SKF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWM: No data found for this date range, symbol may be delisted
+    - GLD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DEM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VOOG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BLV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SYLD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SDY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RWO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IJH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWH: No data found for this date range, symbol may be delisted
+    - IEI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MGV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FXI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IJK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ILB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VFH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MGK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ULST: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWW: No data found for this date range, symbol may be delisted
+    - TNA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IPF: No data found for this date range, symbol may be delisted
+    - IXN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RRF: No data found, symbol may be delisted
+    - SRS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BGZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CVY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VTWG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PCY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VOE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - AMLP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IJR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VIOV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DXJ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FAZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWG: No data found for this date range, symbol may be delisted
+    - IYF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ACCU: No data found for this date range, symbol may be delisted
+    - VXUS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VOX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IJT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VONE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RLY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IOO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CCX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EEM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - OIL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VBK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VHT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GSY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - KXI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GAL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IDU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - KRE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DDM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IELG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RWM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - REM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - OIH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IPN: No data found for this date range, symbol may be delisted
+    - VCR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EZU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IEIL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - MYY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HUSE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FTLB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ICSH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VGK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DVY: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VPU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EMB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ARKK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PDP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FWDI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FDN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PALL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DUG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VCLT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - AND: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - TIP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SHM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SPXL: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DTN: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VCSH: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SLV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IFAS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HDGI: No data found for this date range, symbol may be delisted
+    - FNDF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BNDX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EEB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GVT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VTWV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FPE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ITB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWP: No data found for this date range, symbol may be delisted
+    - EWA: No data found for this date range, symbol may be delisted
+    - IYC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DFE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VMBS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RPG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ACWI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VTV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - PID: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EWU: No data found for this date range, symbol may be delisted
+    - IPW: No data found for this date range, symbol may be delisted
+    - SCHZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VEA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - CYB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IEIS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BRAZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - TTFS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - QQQ: No data found for this date range, symbol may be delisted
+    - WREI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IYK: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BWX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EPI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HYD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SSO: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SPLV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IGV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BRAQ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SDS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RAVI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FORX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EIS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - TWM: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VOT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - AUNZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VTI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DXD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VGIT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GLDE: No data found for this date range, symbol may be delisted
+    - DOG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IRV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SPY: No data found for this date range, symbol may be delisted
+    - SIVR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - AADR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VCIT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ARGT: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HEDJ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - JJC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DBIZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - HYLD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - STPZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FTHI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VXF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VEU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - KBE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GDX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RWG: No data found, symbol may be delisted
+    - HDGE: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FWDD: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - BABZ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - FNDA: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - XLU: No data found for this date range, symbol may be delisted
+    - FMF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - SCHG: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IEF: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DBC: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IWB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - ARKQ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - VBR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - WDTI: No data found, symbol may be delisted
+    - RIGS: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - RSP: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EU: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IBB: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IYJ: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - EDV: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - DWX: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GMTB: No data found for this date range, symbol may be delisted
+    - VNQI: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - GEUR: Data doesn't exist for startDate = 946742399, endDate = 946742399
+    - IST: Data doesn't exist for startDate = 946742399, endDate = 946742399
     
 
 ## Adding dates to the Database
@@ -55,6 +481,36 @@ Database objects are initialised with start and end date 2000-01-01 23:59:59
 ```python
 database.add_date("2020-01-01")
 ```
+
+    - QEH: No data found, symbol may be delisted
+    - FTGS: No data found, symbol may be delisted
+    - BRAF: No data found for this date range, symbol may be delisted
+    - IPD: No data found for this date range, symbol may be delisted
+    - CRDT: No data found for this date range, symbol may be delisted
+    - SCPB: No data found for this date range, symbol may be delisted
+    - ONEF: No data found for this date range, symbol may be delisted
+    - IRY: No data found for this date range, symbol may be delisted
+    - IPU: No data found for this date range, symbol may be delisted
+    - YPRO: No data found, symbol may be delisted
+    -  SHE: No data found, symbol may be delisted
+    - RPX: No data found, symbol may be delisted
+    - BGU: No data found for this date range, symbol may be delisted
+    - GMMB: No data found for this date range, symbol may be delisted
+    - GGBP: No data found for this date range, symbol may be delisted
+    - IPF: Data doesn't exist for startDate = 946828799, endDate = 1577894399
+    - RRF: No data found, symbol may be delisted
+    - ACCU: No data found for this date range, symbol may be delisted
+    - IPN: No data found for this date range, symbol may be delisted
+    - HDGI: No data found for this date range, symbol may be delisted
+    - IPW: No data found for this date range, symbol may be delisted
+    - GLDE: No data found for this date range, symbol may be delisted
+    - IRV: No data found for this date range, symbol may be delisted
+    - RWG: No data found, symbol may be delisted
+    - WDTI: No data found, symbol may be delisted
+    - GMTB: No data found for this date range, symbol may be delisted
+    
+
+
 
 
 <div>
