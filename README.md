@@ -390,19 +390,6 @@ database.data
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -704,11 +691,11 @@ database.data
 
 ## Filtering data based on data availability requirement
 
-For portfolio construction, it may sometimes be desirable to only select from assets for which a sufficiently large amount of historical data is available.
+For portfolio construction, it may sometimes be desirable to consider only assets for which the data available exceeds a certain threshold.
 
 This is done using the co.filter() function.
 
-The function an unfiltered dataset and a constant, min_frac, as its input, and returns the filtered dataset. If the length of the unfiltered dataset is x, assets with fewer than x * min_frac historical price data points available are removed.
+The function takes an unfiltered dataset and a constant, min_frac, as its inputs, and returns the filtered dataset. If the length of the unfiltered dataset is x, assets with fewer than x * min_frac historical price data points available are removed.
 
 Alternatively, manually screening the dataset based on other requirements can be achieved using pandas functions.
 
@@ -721,7 +708,7 @@ data = co.filter(database.data, 0.5)
 
 The returns for each asset are calculated using the co.get_return_df() function.
 
-The function takes a filtered dataset and a constant, periods, as its inputs, and returns a dataframe with the periods-duration returns of each asset at each point in time.
+The function takes a filtered dataset and a constant, periods, as its inputs, and returns a dataframe with the forward-looking returns of each asset over the specified number of periods at each point in time.
 
 
 ```python
@@ -753,7 +740,7 @@ cov_df = co.get_cov_df(return_df)
 
 It may be unwieldly or otherwise inefficient to generate portfolios based on a very large set of assets. As such, a utility is provided to narrow down the number of asssets in consideration.
 
-The co.get_shortlist() function takes cov_df and a constant, n_clusters, as its inputs. The assets are clustered using a K-means clustering algorithm into n_clusters number of clusters, based on their characteristics as reflected in the covariance matrix. The list of shortlisted asset tickers is returned.
+The co.get_shortlist() function takes cov_df and a constant, n_clusters, as its inputs. The assets are clustered using a K-means clustering algorithm into n_clusters number of clusters, based on their characteristics as reflected in the covariance matrix. A shortlist comprising the asset that best represents each sector is returned.
 
 There are many other ways to construct an asset shortlist, however, most involve some extent of subjective decision-making, which introduces bias. Nonetheless, these can also be implemented with relative ease, by hardcoding the list of tickers.
 
@@ -764,7 +751,7 @@ shortlist = co.get_shortlist(cov_df, 100)
 
 ## Generating optimized portfolios
 
-The co.plot_optimize() function takes mean_series, cov_df, and a constant, n_points as inputs. n_inputs number of optimized portfolios are returned. The optimized portfolios are evenly spread out across different levels of expected returns.
+The co.plot_optimize() function takes mean_series, cov_df, and a constant, n_points as inputs. n_points number of optimized portfolios are returned. The optimized portfolios are evenly spread out across a range of expected returns.
 
 The co.eliminate() function eliminates portfolios which are dominated (there is at least one other portfolio with higher or equal returns and lower or equal risk.
 
@@ -805,19 +792,6 @@ portfolio_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1096,7 +1070,7 @@ This can be accomplished as well. However, the steps for targeting alternative m
 
 An initial range of portfolios must first be generated, as we have done above. Then, the target metric must be calculated for each of the generated portfolios, as we have done for value-at-risk and loss probability.
 
-Then a list of targeted values for the new metric must be hardcoded. The co.metric_to_mean() function is then used to convert the list of targeted values for the new metric into target levels of expected returns. Portfolios are then generated targeting each of these new levels.
+Then a list of targeted values for the new metric must be hardcoded. The co.metric_to_mean() function is then used to convert the list of targeted values for the new metric into target levels of expected returns. Portfolios are then generated to target each of these levels of expected returns.
 
 
 ```python
@@ -1139,19 +1113,6 @@ portfolio_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1279,7 +1240,7 @@ portfolio_df.to_csv("result.csv")
 
 ## Installation
 
-Install by downloading and moving the customlibs folder to your project directory.
+Install by downloading and copying the customlibs folder to your project directory.
 
 # Design Decisions
 
